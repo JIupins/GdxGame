@@ -50,10 +50,7 @@ public class Main {
             public int compare(Unit o1, Unit o2) {
                 return o2.speed - o1.speed;
             }
-
         });
-
-
     }
 
     static public ArrayList<Unit> team1 = new ArrayList<>();
